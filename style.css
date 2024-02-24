@@ -1,0 +1,102 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #d8e8f1f3;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+.main{
+    flex: 1;
+}
+.weekend{
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(0, 0, 84);
+}
+#trip{
+    color: rgb(101, 23, 153);
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    padding-top: 30px;
+    padding-bottom: -10px;
+}
+.dost{
+    color: rgb(101, 23, 153);
+}
+footer{
+    text-align: center;
+    background-color: rgb(77, 46, 149);
+    color: rgb(231, 229, 229);
+    clear: both;
+}
+.image{
+    height: 350px;
+    width: 500px;
+    float: left;
+    margin-right: 50px;
+}
+.card{
+    width: 100%;
+}
+.details1{
+    position: relative;
+    top: -25px;
+}
+.details2{
+    position: relative;
+    top: -25px;
+}
+.details3{
+    position: relative;
+    top: -25px;
+}
+.details4{
+    position: relative;
+    top: -25px;
+}
+.details5{
+    position: relative;
+    top: -25px;
+}
+.details6{
+    position: relative;
+    top: -25px;
+}
+.details7{
+    position: relative;
+    top: -25px;
+}
+@media (max-width:680px) {
+    .logo{
+        width: 150px;
+    }
+    h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .image{
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline-block;
+        object-fit: cover;
+    }
+    .weekend{
+        width: 100%;
+        text-align: justify;
+    }
+    #trip{
+        text-align: center;
+    }
+}
